@@ -1,5 +1,6 @@
 <script>
   import Header from "$lib/Header.svelte"
+  import CurrencyConverter from "../lib/CurrencyConverter.svelte"
   import HiButton from "../lib/HiButton.svelte"
   import ImageCard from "../lib/ImageCard.svelte"
   let count = 0
@@ -24,6 +25,8 @@
 </main>
 
 <HiButton />
+
+<CurrencyConverter />
 
 <ImageCard />
 
