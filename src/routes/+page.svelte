@@ -1,5 +1,6 @@
 <script>
   import Header from "$lib/Header.svelte"
+  import HiButton from "../lib/HiButton.svelte"
   import ImageCard from "../lib/ImageCard.svelte"
   let count = 0
   function increment() {
@@ -21,6 +22,8 @@
   <button on:click={increment}>Increment</button>
   <button on:click={decrement}>Decrement</button>
 </main>
+
+<HiButton />
 
 <ImageCard />
 
