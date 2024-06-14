@@ -5,7 +5,9 @@
 </script>
 
 <figure>
-  <a href={linkUrl}><img src={imageUrl} alt="Example" /></a>
+  <a href={linkUrl}>
+    <img src={imageUrl} alt="Example" />
+  </a>
   <figcaption>{caption}</figcaption>
 </figure>
 
