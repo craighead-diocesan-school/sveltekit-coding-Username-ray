@@ -1,8 +1,9 @@
 <script>
   let input = ""
   let output = ""
+  let convRate = 1.63
   function converter() {
-    output = input * 1.63
+    output = input * convRate
   }
 </script>
 
