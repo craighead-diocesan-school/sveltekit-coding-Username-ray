@@ -3,6 +3,7 @@
   import CurrencyConverter from "../lib/CurrencyConverter.svelte"
   import HiButton from "../lib/HiButton.svelte"
   import ImageCard from "../lib/ImageCard.svelte"
+  import UserRole from "../lib/UserRole.svelte"
   let count = 0
   function increment() {
     count = count + 1
@@ -14,6 +15,8 @@
 </script>
 
 <Header />
+
+<UserRole />
 
 <main>
   {#if name}
