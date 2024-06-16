@@ -10,11 +10,18 @@
   function decrement() {
     count = count - 1
   }
+  let name = ""
 </script>
 
 <Header />
 
 <main>
+  {#if name}
+    <h1>Hello, {name}!</h1>
+  {:else}
+    <h1>Hello, stranger!</h1>
+  {/if}
+
   <h2>SvelteKit</h2>
 
   <p>Welcome to coding with SvelteKit, a modern JavaScript framework that makes it easy to code great apps.</p>
