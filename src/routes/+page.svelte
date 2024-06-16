@@ -10,7 +10,7 @@
   function decrement() {
     count = count - 1
   }
-  let name = ""
+  let name = "Bob"
 </script>
 
 <Header />
@@ -20,6 +20,12 @@
     <h1>Hello, {name}!</h1>
   {:else}
     <h1>Hello, stranger!</h1>
+  {/if}
+
+  {#if name == "Alice"}
+    <h1>Welcome back, Alice!</h1>
+  {:else}
+    <h1>Hello, {name}!</h1>
   {/if}
 
   <h2>SvelteKit</h2>
