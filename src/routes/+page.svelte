@@ -38,6 +38,9 @@
   <p>Count: {count}</p>
   <button on:click={increment}>Increment</button>
   <button on:click={decrement}>Decrement</button>
+
+  <a href="/ProductItem">Product Item</a>
+  <a href="/iteration">Iteration</a>
 </main>
 
 <HiButton />
